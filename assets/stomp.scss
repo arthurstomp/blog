@@ -4,54 +4,54 @@
 
 @font-face {
   font-family: "Merriweather";
-  src: url("./../../assets/fonts/Merriweather/Merriweather-Regular.ttf");
+  src: url("{{ '/assets/fonts/Merriweather/Merriweather-Regular.ttf' | relative_url }}");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Merriweather";
-  src: url("./../../assets/fonts/Merriweather/Merriweather-Bold.ttf");
+  src: url("{{ '/assets/fonts/Merriweather/Merriweather-Bold.ttf' | relative_url }}");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Merriweather";
-  src: url("./../../assets/fonts/Merriweather/Merriweather-Light.ttf");
+  src: url("{{ '/assets/fonts/Merriweather/Merriweather-Light.ttf' | relative_url }}");
   font-weight: lighter;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./../../assets/fonts/Montserrat/Montserrat-Regular.ttf");
+  src: url("{{ '/assets/fonts/Montserrat/Montserrat-Regular.ttf' | relative_url }}");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+  src: url("{{ '/assets/fonts/Montserrat/Montserrat-Bold.ttf' | relative_url }}");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Montserrat";
-  src: url("./../../assets/fonts/Montserrat/Montserrat-Light.ttf");
+  src: url("{{ '/assets/fonts/Montserrat/Montserrat-Light.ttf' | relative_url }}");
   font-weight: lighter;
   font-style: normal;
 }
 
 @font-face {
   font-family: "RockSalt";
-  src: url("./../../assets/fonts/RockSalt-Regular.ttf");
+  src: url("{{ '/assets/fonts/RockSalt-Regular.ttf' | relative_url }}");
 }
 
 @font-face {
   font-family: "Rubik";
-  src: url("./../../assets/fonts/Rubik/Rubik-Medium.ttf");
+  src: url("{{ '/assets/fonts/Rubik/Rubik-Medium.ttf' | relative_url }}");
 }
 
 $main-font: "Rubik";
