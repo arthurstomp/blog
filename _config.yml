@@ -30,6 +30,10 @@ github_username:  arthurstomp
 
 # Build settings
 theme: minima
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
 plugins:
   - jekyll-feed
 
