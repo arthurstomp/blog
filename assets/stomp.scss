@@ -72,6 +72,15 @@ a, a:hover {
   font-weight: bold;
 }
 
+a code.highlighter-rouge {
+  @extend .rasta-yellow-color;
+  background: #272822;
+  white-space: pre; 
+  overflow-x: auto; 
+  word-wrap: normal;
+}
+
+
 .wrapper {
   max-width: calc(900px - (30px * 2));
 }
