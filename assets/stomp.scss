@@ -80,7 +80,6 @@ a code.highlighter-rouge {
   word-wrap: normal;
 }
 
-
 .wrapper {
   max-width: calc(900px - (30px * 2));
 }
@@ -214,12 +213,18 @@ a code.highlighter-rouge {
 
   .photo-wrapper {
     min-width: 50%;
-    background: url("./../../assets/images/profile.png");
+    min-height: 500px;
+    // background: url("./../../assets/images/profile.png");
+    background: purple;
   }
 
   .profile-wrapper {
     min-width: 50%;
+    text-align: center;
+
     .author {
+      font-size: 1.5rem;
+      font-weight: bold;
     }
 
     .profile {
